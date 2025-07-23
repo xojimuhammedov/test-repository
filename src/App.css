@@ -1,0 +1,31 @@
+.form-input {
+  outline: none;
+  padding: 10px 12px;
+  width: 100%;
+  margin: 5px 0;
+  border: 2px solid #f2f2f2;
+  border-radius: 12px;
+}
+
+.form-map {
+  width: 550px;
+  height: 550px;
+}
+
+.section-link{
+  background-color: #D3A68D;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 12px auto;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 600px) {
+  .form-map {
+    width: 100%;
+  }
+}
